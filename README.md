@@ -1,6 +1,6 @@
 Templat LaTeX Tesis Informatika ITB
 ===================================
-oleh: Petra Novandi <me@petrabarus.net>
+oleh: Petra Novandi <me@petrabarus.net>  
 dimodifikasi: Faris Rizki Ekananda <work@farisekananda.dev>
 
 Dokumen ini merupakan templat LaTeX yang ditujukan untuk laporan
@@ -40,6 +40,8 @@ Hasil kompilasi akan berada pada berkas `output/thesis.pdf`.
 
 Integrasi VSCode LaTeX Workshop
 ----------
+
+![Demo Gif](demo.gif)
 
 Template ini telah diintegrasikan dengan VSCode extension LaTeX Workshop sehingga dapat melakukan build otomatis, memakai synctex, serta linter. Perhatikan bahwa **integrasi ini tidak bisa dipakai di Windows.** Apabila Anda memakai Windows, buka VSCode memakai Remote WSL Extension dan install texlive di WSL Anda.
 
