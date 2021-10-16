@@ -1,0 +1,37 @@
+{
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.recipe.default": "lastUsed",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latex_itb_ta LINUX",
+      "tools": ["latex_itb_make", "latex_itb_move"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latex_itb_make",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-bibtex",
+        "-outdir=../build",
+        "-cd",
+        "src/thesis.tex"
+      ],
+      "env": {}
+    },
+    {
+      "name": "latex_itb_move",
+      "command": "cp",
+      "args": ["-f", "%OUTDIR%/thesis.pdf", "%DIR%/../output/thesis.pdf"],
+      "env": {}
+    }
+  ],
+  "latex-workshop.synctex.afterBuild.enabled": true,
+  "latex-workshop.latex.outDir": "%DIR%/../build",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "editor.formatOnSave": true
+}
