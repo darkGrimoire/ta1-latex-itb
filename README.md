@@ -1,7 +1,8 @@
 Templat LaTeX Tesis Informatika ITB
 ===================================
 oleh: Petra Novandi <me@petrabarus.net>  
-dimodifikasi: Faris Rizki Ekananda <work@farisekananda.dev>
+dimodifikasi: Faris Rizki Ekananda <work@farisekananda.dev>  
+original repo: https://github.com/petrabarus/if-itb-latex/
 
 Dokumen ini merupakan templat LaTeX yang ditujukan untuk laporan
 tesis di program studi Teknik Informatika ITB. Templat ini penulis
@@ -12,6 +13,9 @@ dapat digunakan oleh banyak orang.
 Silakan mengunduh, menggunakan, memodifikasi, dan menyebarkan
 templat ini. :)
 
+Contoh Hasil Build
+---------
+https://drive.google.com/file/d/1cRmhjs1gcVDRZ_SJGqA3ONM5jQIE6lx6/view
 
 Kebutuhan
 ---------
