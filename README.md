@@ -51,6 +51,17 @@ Integrasi VSCode LaTeX Workshop
 
 Template ini telah diintegrasikan dengan VSCode extension LaTeX Workshop sehingga dapat melakukan build otomatis, memakai synctex, serta linter. Terdapat 2 file konfigurasi setelan vscode yang terdapat pada folder .vscode. Defaultnya adalah setelan Windows, namun Anda dapat menggantinya dengan setelan linux.
 
+Shortcut Latex Workshop yang berguna
+----------
+`ctrl + alt + v` pada `*.tex` -> buka file `pdf` interaktif  
+`ctrl + alt + j` pada `*.tex` -> pergi ke lokasi kursor pada `pdf` yang dibuka  
+`ctrl + klik kanan` pada `*.pdf` -> pergi ke lokasi kursor pada file `.tex` yang sesuai  
+
+Troubleshooting
+----------
+**Q: Bagaimana cara menghilangkan border merah pada hyperlink di pdf?**  
+A: Pada file `config/if-itb-thesis.sty`, Ubah `\usepackage{hyperref}` menjadi `\usepackage[hidelinks]{hyperref}`.
+
 Kontribusi
 ----------
 
@@ -59,7 +70,7 @@ berharap adanya kritik serta saran dari pengguna untuk meningkatkan
 kualitas hasil dan penggunaan templat ini.
 
 Kritik dan saran tersebut dapat dikirim melalui URL
-<https://github.com/petrabarus/if-itb-latex/issues>.
+<https://github.com/darkGrimoire/ta1-latex-itb>.
 
 Terima Kasih
 -----------
