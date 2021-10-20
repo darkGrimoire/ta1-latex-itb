@@ -20,7 +20,7 @@ https://drive.google.com/file/d/1cRmhjs1gcVDRZ_SJGqA3ONM5jQIE6lx6/view
 Kebutuhan
 ---------
 
-Program telah diuji dalam sistem operasi Linux Ubuntu 20.04. Untuk melakukan instalasi
+Program telah diuji dalam sistem operasi Linux Ubuntu 20.04 dan Windows 10. Untuk melakukan instalasi
 perangkat lunak yang dibutuhkan, eksekusi perintah berikut.
 
 ```
@@ -29,6 +29,8 @@ sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends \
     dvipng texlive-latex-recommended texlive-lang-other \
     texlive-bibtex-extra biber xzdec
 ```
+
+Untuk Windows, Anda dapat melakukan instalasi TeXLive pada [link berikut](https://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe). Manual Instalasi dapat dilihat pada [link berikut](https://www.tug.org/texlive/windows.html). Jangan lupa cek environment variable Anda dan pastikan terdapat PATH menuju `<texlive_installation_directory>\2021\bin\win32`
 
 Penggunaan
 ----------
@@ -47,7 +49,7 @@ Integrasi VSCode LaTeX Workshop
 
 ![Demo Gif](demo.gif)
 
-Template ini telah diintegrasikan dengan VSCode extension LaTeX Workshop sehingga dapat melakukan build otomatis, memakai synctex, serta linter. Perhatikan bahwa **integrasi ini tidak bisa dipakai di Windows.** Apabila Anda memakai Windows, buka VSCode memakai Remote WSL Extension dan install texlive di WSL Anda.
+Template ini telah diintegrasikan dengan VSCode extension LaTeX Workshop sehingga dapat melakukan build otomatis, memakai synctex, serta linter. Terdapat 2 file konfigurasi setelan vscode yang terdapat pada folder .vscode. Defaultnya adalah setelan Windows, namun Anda dapat menggantinya dengan setelan linux.
 
 Kontribusi
 ----------
