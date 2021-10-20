@@ -38,8 +38,12 @@ Penggunaan
 Templat ini telah dilengkapi oleh skrip untuk melakukan kompilasi
 Makefile. Untuk melakukan kompilasi cukup eksekusi perintah berikut
 
-```
+```bash
+# untuk linux
 make
+
+# untuk windows
+make.bat
 ```
 
 Hasil kompilasi akan berada pada berkas `output/thesis.pdf`.
