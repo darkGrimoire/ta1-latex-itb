@@ -1,6 +1,6 @@
-all: clean install
+all: clean build
 
-install:
+build:
 	mkdir -p output
 	mkdir -p build
 	latexmk -pdf -bibtex -outdir=../build -cd src/thesis.tex
